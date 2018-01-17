@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sambrady3/compare-u.git"
+    "url": "git+https://github.com/hola22543/testing.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sambrady3/compare-u/issues"
+    "url": "https://github.com/hola22543/testing/issues"
   },
-  "homepage": "https://github.com/sambrady3/compare-u#readme",
+  "homepage": "https://github.com/hola22543/testing#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
