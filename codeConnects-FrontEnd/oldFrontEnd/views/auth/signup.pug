@@ -1,0 +1,30 @@
+extends ../../node_modules/pug-bootstrap/_bootstrap
+block body
+    div.container
+
+    div.col-sm-6.col-sm-offset-3
+
+        h1 Signup
+
+        //- show any messages that come back with authentication
+        if message.length > 0
+            div.alert.alert-danger #{message}
+
+        form(action="/signup" method="post")
+            div.form-group
+                label(for='email') Email
+                input#email.form-control(type='email', placeholder='name@email.com' name='email')
+            div.form-group
+                label(for='pw') Password
+                input#pw.form-control(type='password' name='password')
+            div.form-group
+                input(type='radio', name="role", value=1, required = true)
+                |Teacher
+                input(type='radio', name="role", value=0, required = true)
+                |Student
+            button.btn.btn-warning.btn-lg(type='submit') Apply
+
+        hr
+
+        p Already have an account? 
+            a(href="/login") Login.
