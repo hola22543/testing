@@ -18,6 +18,7 @@ export default class App extends Component {
 	<BrowserRouter>
   <div>
 	 <Header />
+	    ggjhgjgjhg
 	    <Navbar />
       <Switch>
 	       <Route exact path="/" component={Home} />
