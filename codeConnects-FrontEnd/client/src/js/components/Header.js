@@ -4,7 +4,7 @@ export default class Header extends React.Component{
     {return (
     <div>
         <h1>Code Connects</h1>
-        <button>Log in</button>
+        <button>Logkh kjhkh  in</button>
         <button>Donate</button>
     </div>
     );
